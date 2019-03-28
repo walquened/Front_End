@@ -68,7 +68,7 @@
                </form>
                <div class="contato_dados grid-8">
                     <h3>Dados</h3>
-                    <span>+55 64 993163816</span>
+                    <span>+55 64 *********</span>
                     <span>E-mail : suporte@gmail.com</span>
                     <span>Rua B9 Quadra B6</span>
                     <span>Cidade : ************ <b>- UF - Brasil</b></span>
