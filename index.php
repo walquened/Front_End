@@ -130,7 +130,7 @@
                     <div class="grid-4 footer_contato">
                         <h3>CONTATO</h3>
                         <ul>
-                            <li>- 64 *******</li>
+                            <li>- 64 88888888</li>
                             <li>contato@gmail.com</li>
                             <li>Cidade - ******* <b>UF</b></li>
                         </ul>
