@@ -1,0 +1,81 @@
+/* SOBRE */
+.interna_portfolio{
+
+    background: url("../img/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+.quote_clientes {
+    padding: 60px 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.quote_clientes p{
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.quote_clientes cite{
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    font-style: normal;
+}
+/* Plugin Slides*/ 
+.rslides, .rslides_portfolio {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li, .rslides_portfolio li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child, .rslides_portfolio li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img, .rslides_portfolio img{
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+/* Estilizando as bolinhas de atualização ooo */
+.rslides_tabs{
+    text-align: center;
+    margin-top: 20px;
+}
+.rslides_tabs li{
+    display: inline;
+    margin: 5px 2px ;
+}
+
+.rslides_tabs li a{
+    display: inline-block;
+    width: 12px;
+    height:12px;
+    background:#1D1D1D;
+    color:#1D1D1D;
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent:  -200px;
+}
+.rslides_tabs a:hover, .rslides_tabs li.rslides_here a{
+    background: red;
+    color: red;
+}

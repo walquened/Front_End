@@ -1,0 +1,101 @@
+/* PRODUTOS */
+.interna_contato{
+
+     background: url("../img/bg-contato.jpg") no-repeat center;
+     background-size: cover;
+} 
+
+
+/* ORÇAMENTOS / FORMULARIO*/
+.contato{
+     padding:40px 0;
+}
+
+.contato-form{
+     padding-right: 60px; 
+}
+.contato-form label{
+     display: block; 
+     font-family: Georgia, "Times New Roman", sans-serif;
+     font-size: 18px;
+     line-height: 25px;
+     margin-bottom: 4px;
+}
+::placeholder{
+     color: #d8d2d0;
+     text-align: center;
+}
+.contato-form input{
+     display: block;
+     width: 100%;
+     border: 2px solid #Fec63E;
+     background: none;
+     padding: 7px 10px;
+     margin-bottom:10px;
+     outline: none;
+     font-size: 14px;
+     font-family: Georgia, "Times New Roman", sans-serif;
+     border-radius: 4px;
+}
+.contato-form textarea{
+     display: block;
+     width: 100%;
+     height: 120px;
+     border: 2px solid #Fec63E;
+     background: none;
+     padding: 7px 10px;
+     margin-bottom:20px;
+     outline: none;
+     font-size: 14px;
+     font-family: Georgia, "Times New Roman", sans-serif;
+     border-radius: 4px;
+}
+.contato-form button {
+     padding: 7px 40px;
+     background: none;
+}
+.orcamento_dados{
+     color: #FFF;
+}
+.contato_dados h3{
+     font-size: 18px;
+     line-height: 25px;
+     text-transform: uppercase;
+     color: #Fec63E;
+     font-weight: bold;
+
+
+}
+.contato_dados span{
+     display: block;
+     font-size: 18px;
+     line-height: 30px;
+     font-family: Georgia, "Times New Roman", sans-serif;
+}
+.contato_dados span:nth-of-type(even){
+     margin-bottom: 30px;
+}
+
+.contato_dados ul{
+     margin-top: 10px;
+}
+
+.contato_dados ul li{
+     display: inline-block; 
+     margin-right: 10px;
+}
+
+.contato_dados ul li a{
+     border:3px solid #FEC63E;
+     display: block;
+     border-radius: 5px;
+     padding: 10px;
+}
+
+.contato_dados ul li a:hover{
+     border-color: #000;
+
+}
+.contato_mapa{
+     margin-bottom: 60px;
+}
