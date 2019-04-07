@@ -3,13 +3,12 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
-
+.fontzero{font-size: 0px;}
 p {
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 14px;
 	line-height: 20px;
 }
-.fontzero{font-size: 0;}
 
 img {
 	display: block;
@@ -86,7 +85,6 @@ img {
 	background: #fec63e; /* Amarelo */
 	padding: 15px 0;
 	z-index: 10;
-
 }
 
 .header_menu {
@@ -259,7 +257,7 @@ img {
 	background: #fec63e;
 }
 
-.portfolio_lista div:last-of-type{
+.portfolio_lista div:last-of-type {
 	margin-top: 20px;
 }
 
@@ -391,48 +389,48 @@ img {
 	padding: 20px 0;
 }
 
-/*Animaçoes */
+/*Animações*/
+
 .js .introducao h1, .js .introducao blockquote, .js .introducao .btn, .js .animar, .js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
 	opacity: 0;
 }
 
 .animated {
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+          animation-fill-mode: both;
 }
- 
 
 @-webkit-keyframes fadeInDown {
-  from {
+  0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
   }
 
-  to {
+  100% {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: none;
+            transform: none;
   }
 }
 
 @keyframes fadeInDown {
-  from {
+  0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
   }
 
-  to {
+  100% {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: none;
+            transform: none;
   }
 }
 
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
+          animation-name: fadeInDown;
 }
