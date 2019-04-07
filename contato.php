@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-     <head>
-          <meta charset="UTF-8">
-          <title> BykMin  - Produtos *</title>
-          <meta name="description" content="Acesse as Informações Com Facilidade Agilidade em Tempo Real ">
-          <meta property="og:type" content="website"/>
-          <meta property="og:title" content="BykMin"/>
-          <meta property="og:description" content="Acesse as Informações Com Facilidade Agilidade em Tempo Real "/>
-          <meta property="og:url" content="http://www.timidia.com.br/doc/BykMin"/>
-          <!--<meta property="og:image" content="http://www.timidia.com.br/img/banner.jpg"/>--> <!--link com a imagem  do site-->
+<head>
+     <meta charset="UTF-8">
+     <title> BykMin  - Produtos *</title>
+     <meta name="description" content="Acesse as Informações Com Facilidade Agilidade em Tempo Real ">
+     <meta property="og:type" content="website"/>
+     <meta property="og:title" content="BykMin"/>
+     <meta property="og:description" content="Acesse as Informações Com Facilidade Agilidade em Tempo Real "/>
+     <meta property="og:url" content="http://www.timidia.com.br/doc/BykMin"/>
+     <!--<meta property="og:image" content="http://www.timidia.com.br/img/banner.jpg"/>--> <!--link com a imagem  do site-->
 
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="shortcut icon" href="nomedoicom" />
-          <link rel="stylesheet" href="css/normalize.css"/>
-          <link rel="stylesheet" href="css/reset.css"/>
-          <link rel="stylesheet" href="css/grid.css"/>
-          <link rel="stylesheet" href="css/style.css"/>
-          <link rel="stylesheet" href="css/contato.css"/>
-          <link rel="stylesheet" href="css/responsivo.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" href="nomedoicom" />
+     <link rel="stylesheet" href="css/normalize.css"/>
+     <link rel="stylesheet" href="css/reset.css"/>
+     <link rel="stylesheet" href="css/grid.css"/>
+     <link rel="stylesheet" href="css/style.css"/>
+     <link rel="stylesheet" href="css/contato.css"/>
+     <link rel="stylesheet" href="css/responsivo.css"/>
+      <script src="js/libs/modernizr.custom.45655.js"></script>
 
-     </head>
-     <body>
-          <?php
+</head>
+<body>
+     <?php
           // Digite o Codigo PHP aqui!ddddd
-          ?>
-          <header class="header"><h1 class="fontzero">BykMin</h1>
-               <div class="container">
-                    <a href="index.php" class="grid-4"> 
-                         <img src="img/logo-topo.png" alt="BykMin" title="BykMin"> </a>
+     ?>
+     <header class="header"><h1 class="fontzero">BykMin</h1>
+          <div class="container">
+               <a href="index.php" class="grid-4"> 
+                    <img src="img/logo-topo.png" alt="BykMin" title="BykMin"> </a>
 
                     <nav class="grid-12 header_menu">
                          <h6 class="fontzero">BykMin</h6>
                          <ul>
                               <li><a href="sobre.php" title="Sobre">Sobre</a></li> 
                               <li><a href="produtos.php" title="Produtos">Produtos</a></li> 
-                        <li><a href="portfolio.php" title="Portfólio">Portfólio</a></li> 
-                        <li><a href="contato.php" title="Contato" class="menu_ativo">Contato</a></li> 
+                              <li><a href="portfolio.php" title="Portfólio">Portfólio</a></li> 
+                              <li><a href="contato.php" title="Contato" class="menu_ativo">Contato</a></li> 
                          </ul>
                     </nav>
                </div>
@@ -52,7 +53,7 @@
 
 
           <!-- FIM PRODUTOS -->
-          <section class="contato container"> 
+          <section class="contato container animar-interno"> 
                <form id="form_orcamento" class="contato-form grid-8">
                     <label>Nome </label>
                     <input type="text" name="nome" placeholder="Infome Seu Nome..">
@@ -82,14 +83,14 @@
                </div> 
           </section>
           <!-- FIM FORMULARIOS -->
-              <section class="container contato_mapa">
-                   <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg"></a>
-                         </section>
-          <!-- FIM mapa -->
-          <section class="quebra">
-               <blockquote class="quote-externo container">
-                    <p>" Não tenha nada em sua cassa que você não considere útil ou acredita ser bonito"</p>
-                    <cite>william morris</cite></blockquote>
+          <section class="container contato_mapa">
+           <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg"></a>
+      </section>
+      <!-- FIM mapa -->
+      <section class="quebra">
+          <blockquote class="quote-externo container">
+               <p>" Não tenha nada em sua cassa que você não considere útil ou acredita ser bonito"</p>
+               <cite>william morris</cite></blockquote>
           </section>
           <!-- Fim QUEBRA-->
           <footer>
@@ -130,10 +131,16 @@
           </footer> 
           <!-- -->
           <!-- -->
-       <!--  JavaScript-->
-        <script src="js/libs/plugins.js"></script>
-        <script src="js/libs/main.js"></script>
+    <!--  JavaScript-->
         <script src="js/libs/jquery.min.js"></script>
-        <!-- Fecha JavaScript-->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Fecha JavaScript-->  
+        <script>
+            $(function () {
+                $(".rslides").responsiveSlides();
+            });
+        </script>
      </body>
-</html>
+     </html>
