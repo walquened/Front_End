@@ -12,13 +12,13 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="nomedoicom" />
-        <link rel="stylesheet" href="css/normalize.css"/>
-        <link rel="stylesheet" href="css/reset.css"/>
-        <link rel="stylesheet" href="css/grid.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/sobre.css"/>
-        <link rel="stylesheet" href="css/responsivo.css"/>
-
+            <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/sobre.css">
+        <link rel="stylesheet" href="css/responsivo.css">
+          <script src="js/libs/modernizr.custom.45655.js"></script>
     </head>
     <body>
         <?php
@@ -50,7 +50,7 @@
         </section>
         <!--FIM INTRODUÇÃO-INTERNA -->
 
-        <section class="missao_sobre container">
+        <section class="missao_sobre container animar-interno">
             <div class="grid-10">
                 <h2 class="subtitulo-interno">historia, missão e visão</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -74,24 +74,23 @@
         </section>
 
         <section class="qualidade container">
-            <h2 class="subtitulo">Qualidade</h2>
-            <img src="img/minhalog.png">
-            <ul class="qualidade_lista">
-                <li class="grid-1-3"><h3>Durabilidade</h3>
-                    <p> Ainda assim, Existem Dúvidas a respeito de como a necessidade de renovação e inovação</p></li>
-                <li class="grid-1-3"><h3>Design</h3>
-                    <p> Ainda assim, Existem Dúvidas a respeito de como a necessidade de renovação e inovação</p></li> 
-                <li class="grid-1-3"><h3>Sustentabilidade</h3>
-                    <p> Ainda assim, Existem Dúvidas a respeito de como a necessidade de renovação e inovação</p></li>
-            </ul>
-
-        </section>
-        <!-- FIM SOBRE-->
-        <section class="quebra">
-            <blockquote class="quote-externo container">
-                <p>" Não tenha nada em sua cassa que você não considere útil ou acredita ser bonito"</p>
-                <cite>william morris</cite></blockquote>
-        </section>
+			<h2 class="subtitulo">Qualidade</h2>
+               <img src="img/logo-meio.png" alt="Bikcraft">
+			<ul class="qualidade_lista">
+				<li class="grid-1-3">
+					<h3>Durabilidade</h3>
+					<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
+				</li>
+				<li class="grid-1-3">
+					<h3>Design</h3>
+					<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
+				</li>
+				<li class="grid-1-3">
+					<h3>Sustentabilidade</h3>
+					<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação renovação renovação</p>
+				</li>
+			</ul>
+		</section>
         <!-- Fim QUEBRA-->
         <footer>
             <div class="footer">
@@ -136,9 +135,16 @@
         </footer> 
         <!-- -->
         <!--  JavaScript-->
-        <script src="js/libs/plugins.js"></script>
-        <script src="js/libs/main.js"></script>
+       <!--  JavaScript-->
         <script src="js/libs/jquery.min.js"></script>
-        <!-- Fecha JavaScript-->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Fecha JavaScript-->  
+        <script>
+            $(function () {
+                $(".rslides").responsiveSlides();
+            });
+        </script>
     </body>
 </html>

@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/grid.css"/>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="css/responsivo.css"/>
+  <script src="js/libs/modernizr.custom.45655.js"></script>
  </head>
  <script>
 
