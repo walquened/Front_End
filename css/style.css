@@ -14,7 +14,24 @@ img {
 	display: block;
 	max-width: 100%;
 }
+/*Efeito de envio do formulario*/
+.formphp label.nao-aparece, .formphp input.nao-aparece{
+display:none !important;
+}
+#form-erro span, #form-send span{
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 10px;
+display:block;
+}
+#form-send{
+ color: #31aa39;
+}
+#form-erro{
+ color:#f64540;
 
+}
+/*Fim do envio do Formulario*/
 .btn {
 	border: 3px solid #fec63e;
 	padding: 10px 30px;
@@ -434,3 +451,4 @@ img {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
 }
+
