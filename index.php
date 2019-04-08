@@ -5,7 +5,7 @@
   <title> BykMin 2019yyy </title>
   <meta name="description" content="TiMidia - Gerenciamento de Beckups em Nuvens ">
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="TiMídia"/>
+  <meta property="og:title" content="BykMin 2019yyy"/>
   <meta property="og:description" content="Gerencie Seus Backups Automático "/>
   <meta property="og:url" content="http://www.timidia.com/"/>
   <!--<meta property="og:image" content="http://www.timidia.com.br/img/banner.jpg"/> link com a imagem  do site-->
