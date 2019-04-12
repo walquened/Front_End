@@ -133,7 +133,7 @@
       <ul>
        <li>- 64 9999999</li>
        <li>contato@gmail.com</li>
-       <li>Cidade - ******* <b>UF</b></li>
+       <li>Cidade - ******** <b>UF</b></li>
       </ul>
      </div>
 
@@ -157,7 +157,7 @@
 
    <div class="copy">
     <div class="container">
-     <p class="grid-16">  &copy 2015 - <?php echo date('Y'); ?> BykMin - Todos os direitos Reservados</p>
+     <p class="grid-16">  &copy 2015 - <?php echo date('Y'); ?> BykMin - Todos os direitos Reservados </p>
     </div>
    </div>
   </footer> 
