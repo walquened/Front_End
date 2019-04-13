@@ -3,7 +3,7 @@
 // Mudar Aqui
 
 $email_envio = 'contato@timidia.com'; // E-mail receptor
-$email_pass = ''; // Senha do e-mail
+$email_pass = '****'; // Senha do e-mail
 
 $site_name = 'timidia'; // Nome do Site
 $site_url = 'http://timidia.com/'; // URL do Site
