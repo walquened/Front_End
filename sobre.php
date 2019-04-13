@@ -11,13 +11,8 @@
         <!--<meta property="og:image" content="http://www.timidia.com.br/img/banner.jpg"/>--> <!--link com a imagem  do site-->
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="nomedoicom" />
-            <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/sobre.css">
-        <link rel="stylesheet" href="css/responsivo.css">
+        <link rel="shortcut icon" href="nomedoicom" /> 
+        <link rel="stylesheet" href="css/style.css"> 
           <script src="js/libs/modernizr.custom.45655.js"></script>
     </head>
     <body>
